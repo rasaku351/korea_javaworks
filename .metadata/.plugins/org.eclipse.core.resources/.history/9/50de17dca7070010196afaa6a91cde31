@@ -1,0 +1,40 @@
+package inputs;
+
+import java.util.Scanner; //Scanner 클래스
+
+public class InputEx1 {
+
+	public static void main(String[] args) {
+//		// 입력 처리 - Scanner 클래스 사용
+//		// Scanner 객체 생성, 뒤의 Scanner()는 생성자
+//		// System은 java.lang 패키지 안에 존재, import 하지 않아도 사용할 수 있음
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.print("당신의 이름은 무엇입니까? ");
+//		String name = scanner.nextLine(); //이름입력
+//		System.out.println("당신의 이름은 " + name + "이군요!");
+//		
+//		
+//		System.out.print("당신의 나이는 몇 세입니까? ");
+//		int age = scanner.nextInt();
+//		System.out.println("당신의 나이는 " + age + "세 이군요!");
+//		
+//		// Scanner 객체 종료 
+//		scanner.close();
+		
+		/* 실습 2
+		* 숫자를 입력받아 홀수/짝수를 판별하는 프로그램을 작성하세요
+		*/		 
+		Scanner numScanner = new Scanner(System.in);
+		
+		System.out.print("숫자를 입력하세요 : ");
+		int num = numScanner.nextInt();
+		
+		numScanner.close();
+		
+		String result;
+		result = (num % 2 == 0) ? "짝수입니다." : "홀수입니다.";
+		System.out.println("입력한 " + num + "은(는) " + result);
+	}
+
+}
