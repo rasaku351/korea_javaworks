@@ -19,7 +19,7 @@ public class KeyRepeat {
 			
 			if(key.equals("y")) {
 				System.out.println("계속 반복합니다.");
-			}
+			} 
 			else if(key.equals("n")) {
 				System.out.println("반복을 중단합니다.");
 				break;
