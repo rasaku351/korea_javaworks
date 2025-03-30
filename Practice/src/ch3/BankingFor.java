@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BankingFor {
 
 	public static void main(String[] args) {
-		/* 실습2
+		/* 실습 2
 		 * 예제로 만들었던 은행 업무 프로그램에서 아래의 개선사항을 구현하세요.
 		 * 메뉴화면만들기:1.예금| 2.출금| 3.잔액조회| 4.종료
 		 * 예금: 예금액을 입금하면 "정상처리, 현재잔액" 출력
